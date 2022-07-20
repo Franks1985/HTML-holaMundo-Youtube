@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog</title>
+</head>
+
+<body>
+  <br><br><br>
+  <a target="_blank" href="/index.html">Ir a Mi Index</a>
+  <!--Antiguamente se usaban mucho las etiquetas div, ahora son mas comunes usar las etiquetas section y dentro de section todas las article que se requieran-->
+  <header>
+    <h1>Mi Blog</h1>
+  </header>
+  <div id="titulo">
+    <p>Soy un parrafo dentro de un div</p>
+  </div>
+  <!--el id se debe colocar una sola vez, si se quiere utilizar mas de una vez debe ser con una class y no con un id, el id no se puede asignar a mas de una etiqueta, esto seria mala practica-->
+  <div>
+    <p>Soy un parrafo dentro de un div</p>
+  </div>
+  <section>
+    <article class="post">
+      <h2>Titulo de mi Post 1</h2>
+      <p>Descripcion de mi post 1</p>
+      <img
+        src="https://media.istockphoto.com/photos/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-picture-id1303583671?k=20&m=1303583671&s=612x612&w=0&h=QqX5kLvQElONNOOGEc1ffTqofoz94BHmtMiVlcxayt8="
+        width="400" alt="cafe">
+      <p>Texto del articulo</p>
+    </article>
+    <article class="post">
+      <h2>Titulo de mi Post 2</h2>
+      <p>Descripcion de mi post 2</p>
+      <img
+        src="https://dam.tuenlinea.com/wp-content/uploads/2021/03/monsters-at-work-nuevos-personajes-serie-monsters-inc.jpg"
+        width="400" alt="monster inc">
+      <p>Texto del articulo</p>
+    </article>
+    <article class="post">
+      <h2>Titulo de mi Post 3</h2>
+      <p>Descripcion de mi post 3</p>
+      <img
+        src="https://www.latercera.com/resizer/hXN6Jbwv8yQ0t0U_QNZuSRMg_c0=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/A2HXT6YB2NBILO4CJ7SEUM2J4Q.png"
+        width="400" alt="guitarra">
+      <p>Texto del articulo</p>
+    </article>
+  </section>
+  <footer>
+    <a href="#titulo">Ir al comienzo</a>
+    <a href="mailto:franksequera25@gmail.com">Contactame Aqui</a>
+    <p>Copyright 2022</p>
+  </footer>
+</body>
+
+</html>
